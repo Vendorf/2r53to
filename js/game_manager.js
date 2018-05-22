@@ -70,6 +70,9 @@ GameManager.prototype.addRandomTile = function () {
   if (this.grid.cellsAvailable()) {
     var value = Math.random() < 0.9 ? 2 : 4;
 	var isIntegral = Math.random() < 0.5 ? true : false;
+	  if(isIntegral){
+	  value = value * 2;
+	  }
     var tile = new Tile(this.grid.randomAvailableCell(), value, isIntegral);
 
     this.grid.insertTile(tile);
