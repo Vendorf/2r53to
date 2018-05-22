@@ -55,15 +55,18 @@ HTMLActuator.prototype.addTile = function (tile) {
   var positionClass = this.positionClass(position);
 
   // We can't use classlist because it somehow glitches when replacing classes
-  var classes = ["tile", "tile-" + tile.value, positionClass];
+  var classes = ["tile", "tile-" + tile.value + (tile.integral ? "I" : ""), positionClass];
 
   if (tile.value > 2048) classes.push("tile-super");
 
   this.applyClasses(wrapper, classes);
 
   inner.classList.add("tile-inner");
-  //inner.textContent = tile.value;
-  inner.textContent = null;                                                    //REMOVING NUMVERS FROM TILES
+  //inner.textContent = "D" + tile.value;
+  //inner.textContent = null;                                                    //REMOVING NUMVERS FROM TILES
+  if(tile.integral){
+	  inner.textContent = "∫dx" + (tile.value/2);
+  }
 
   if (tile.previousPosition) {
     // Make sure that the tile gets rendered in the previous position first
