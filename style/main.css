@@ -331,21 +331,39 @@ hr {
   .tile.tile-2 .tile-inner {
     background-image: url("../assets/2.png");
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
+	@media screen and (max-width: 520px) {
+      .tile.tile-2 .tile-inner {
+        background-size: 58px 57px; } }
   .tile.tile-4 .tile-inner {
     background-image: url("../assets/4.png");
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
+	@media screen and (max-width: 520px) {
+      .tile.tile-4 .tile-inner {
+        background-size: 58px 57px; } }
   .tile.tile-8 .tile-inner {
     color: #f9f6f2;
     background-image: url("../assets/8.png"); }
+	@media screen and (max-width: 520px) {
+      .tile.tile-8 .tile-inner {
+        background-size: 58px 57px; } }
   .tile.tile-16 .tile-inner {
     color: #f9f6f2;
     background-image: url("../assets/16.png"); }
+	@media screen and (max-width: 520px) {
+      .tile.tile-16 .tile-inner {
+        background-size: 58px 57px; } }
   .tile.tile-32 .tile-inner {
     color: #f9f6f2;
     background-image: url("../assets/32.png"); }
+	@media screen and (max-width: 520px) {
+      .tile.tile-32 .tile-inner {
+        background-size: 58px 57px; } }
   .tile.tile-64 .tile-inner {
     color: #f9f6f2;
     background-image: url("../assets/64.png"); }
+	@media screen and (max-width: 520px) {
+      .tile.tile-64 .tile-inner {
+        background-size: 58px 57px; } }
   .tile.tile-128 .tile-inner {
     color: #f9f6f2;
     background-image: url("../assets/128.png");
@@ -353,7 +371,9 @@ hr {
     font-size: 45px; }
     @media screen and (max-width: 520px) {
       .tile.tile-128 .tile-inner {
-        font-size: 25px; } }
+        font-size: 25px;		
+		background-size: 58px 57px;
+		} }
   .tile.tile-256 .tile-inner {
     color: #f9f6f2;
     background-image: url("../assets/256.png");
@@ -361,7 +381,9 @@ hr {
     font-size: 45px; }
     @media screen and (max-width: 520px) {
       .tile.tile-256 .tile-inner {
-        font-size: 25px; } }
+        font-size: 25px; 
+		background-size: 58px 57px;
+		} }
   .tile.tile-512 .tile-inner {
     color: #f9f6f2;
     background-image: url("../assets/512.png");
@@ -369,7 +391,9 @@ hr {
     font-size: 45px; }
     @media screen and (max-width: 520px) {
       .tile.tile-512 .tile-inner {
-        font-size: 25px; } }
+        font-size: 25px; 
+		background-size: 58px 57px;
+		} }
   .tile.tile-1024 .tile-inner {
     color: #f9f6f2;
     background-image: url("../assets/1024.png");
@@ -377,7 +401,9 @@ hr {
     font-size: 35px; }
     @media screen and (max-width: 520px) {
       .tile.tile-1024 .tile-inner {
-        font-size: 15px; } }
+        font-size: 15px; 
+		background-size: 58px 57px;
+		} }
   .tile.tile-2048 .tile-inner {
     color: #f9f6f2;
     background-image: url("../assets/2048.png");
@@ -385,26 +411,46 @@ hr {
     font-size: 35px; }
     @media screen and (max-width: 520px) {
       .tile.tile-2048 .tile-inner {
-        font-size: 15px; } }
+        font-size: 15px; 
+		background-size: 58px 57px;
+		} }
 		
 	.tile.tile-2I .tile-inner {
     background-image: url("../assets/2I.png");
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
+	@media screen and (max-width: 520px) {
+      .tile.tile-2I .tile-inner {
+        background-size: 58px 57px; } }
   .tile.tile-4I .tile-inner {
     background-image: url("../assets/4I.png");
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
+	@media screen and (max-width: 520px) {
+      .tile.tile-4I .tile-inner {
+        background-size: 58px 57px; } }
   .tile.tile-8I .tile-inner {
     color: #f9f6f2;
     background-image: url("../assets/8I.png"); }
+	@media screen and (max-width: 520px) {
+      .tile.tile-8I .tile-inner {
+        background-size: 58px 57px; } }
   .tile.tile-16I .tile-inner {
     color: #f9f6f2;
     background-image: url("../assets/16I.png"); }
+	@media screen and (max-width: 520px) {
+      .tile.tile-16I .tile-inner {
+        background-size: 58px 57px; } }
   .tile.tile-32I .tile-inner {
     color: #f9f6f2;
     background-image: url("../assets/32I.png"); }
+	@media screen and (max-width: 520px) {
+      .tile.tile-32I .tile-inner {
+        background-size: 58px 57px; } }
   .tile.tile-64I .tile-inner {
     color: #f9f6f2;
     background-image: url("../assets/64I.png"); }
+	@media screen and (max-width: 520px) {
+      .tile.tile-64I .tile-inner {
+        background-size: 58px 57px; } }
   .tile.tile-128I .tile-inner {
     color: #f9f6f2;
     background-image: url("../assets/128I.png");
@@ -412,7 +458,9 @@ hr {
     font-size: 45px; }
     @media screen and (max-width: 520px) {
       .tile.tile-128I .tile-inner {
-        font-size: 25px; } }
+        font-size: 25px; 
+		background-size: 58px 57px;
+		} }
   .tile.tile-256I .tile-inner {
     color: #f9f6f2;
     background-image: url("../assets/256I.png");
@@ -420,7 +468,9 @@ hr {
     font-size: 45px; }
     @media screen and (max-width: 520px) {
       .tile.tile-256I .tile-inner {
-        font-size: 25px; } }
+        font-size: 25px; 
+		background-size: 58px 57px;
+		} }
   .tile.tile-512I .tile-inner {
     color: #f9f6f2;
     background-image: url("../assets/512I.png");
@@ -428,7 +478,9 @@ hr {
     font-size: 45px; }
     @media screen and (max-width: 520px) {
       .tile.tile-512I .tile-inner {
-        font-size: 25px; } }
+        font-size: 25px; 
+		background-size: 58px 57px;
+		} }
   .tile.tile-1024I .tile-inner {
     color: #f9f6f2;
     background-image: url("../assets/1024I.png");
@@ -436,7 +488,9 @@ hr {
     font-size: 35px; }
     @media screen and (max-width: 520px) {
       .tile.tile-1024I .tile-inner {
-        font-size: 15px; } }
+        font-size: 15px; 
+		background-size: 58px 57px;
+		} }
   .tile.tile-2048I .tile-inner {
     color: #f9f6f2;
     background-image: url("../assets/2048I.png");
@@ -444,14 +498,18 @@ hr {
     font-size: 35px; }
     @media screen and (max-width: 520px) {
       .tile.tile-2048I .tile-inner {
-        font-size: 15px; } }
+        font-size: 15px; 
+		background-size: 58px 57px;
+		} }
   .tile.tile-super .tile-inner {
     color: #f9f6f2;
     background-image: url("../assets/default.png");
     font-size: 30px; }
     @media screen and (max-width: 520px) {
       .tile.tile-super .tile-inner {
-        font-size: 10px; } }
+        font-size: 10px; 
+		background-size: 58px 57px;
+		} }
 
 @-webkit-keyframes appear {
   0% {
